@@ -1,0 +1,70 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 4/11/2017, 09:54:18 AM
+    Author     : MANUEL FERNANDO
+*/
+img.bg {
+            
+            /* Establecer la escala proporcional */
+            width: 100%;
+            height: 120%;
+            
+            /* Establecer posicion */
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+hr{
+    display: block;
+    border: 10px solid white;
+}
+.colo-texto{
+    color: white;
+}
+
+.font-texto{
+    font-family: 'Indie Flower', cursive;
+}
+.color-alert{
+    color: #cc4b37;
+}
+@media screen{
+    .container{
+        width: 60%;
+        margin-left: 20% !important;
+        background: rgba(3, 3, 40, 0.4) !important;
+    }
+    .titulo{
+        border-right: 1px solid white;
+    }
+    .gray{
+        background-color: #e6e6e6 !important;
+    }
+    .fecha{
+        color: red;
+    }
+    .text{
+        font-size: 90%;
+    }
+    .favorito{
+        margin-top: 15%
+    }
+    .comentario{
+        border-radius: 10px !important;
+    }
+    .body{
+        background-image: url("../img/fondo.jpg");
+    }
+}
+
+@media (max-width:1021px){
+    .container{
+        background-color: #8a8a8a;
+        width: 100%;
+        margin-top: 0px;
+    }
+}

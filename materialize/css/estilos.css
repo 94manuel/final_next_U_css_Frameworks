@@ -1,0 +1,43 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 4/11/2017, 07:08:14 PM
+    Author     : MANUEL FERNANDO
+*/
+.menu{
+    font-size: 60%;
+    margin-top: 1%;
+}
+h1{
+    font-size: 250%;
+    margin-top: 7%;
+}
+.img-border{
+    border-radius: 15px !important;
+}
+.color-form{
+   background: rgba(13, 68, 88, 0.5) !important;
+}
+.fecha{
+    display: flex;
+    border-radius: 20px;
+    background-color: #D5CECE;
+    width: 100%;
+}
+.color-text{
+    color: black;
+}
+@media (max-width:700px){
+    .text{
+        font-size: 70%;
+        margin-top: 0px;
+    }
+    .menu{
+    font-size: 10%;
+    margin-top: 1%;
+    width: 10%;
+}
+}
